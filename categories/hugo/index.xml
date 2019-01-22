@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Cheng‘s Blog</title>
-    <link>http://blog.antice.top/categories/hugo/</link>
+    <link>http://chengbinh.github.io/categories/hugo/</link>
     <description>Recent content in Hugo on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 22 Jan 2019 16:08:17 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.antice.top/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://chengbinh.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用Github，Hugo创建属于自己的个人博客</title>
-      <link>http://blog.antice.top/post/hugosite/</link>
+      <link>http://chengbinh.github.io/post/hugosite/</link>
       <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/hugosite/</guid>
+      <guid>http://chengbinh.github.io/post/hugosite/</guid>
       <description>(本教程的运行环境为Ubuntu18.04) 背景 &amp;emsp;&amp;emsp;其实在大三暑假开始就想搭建一个个人的静态博客，网上查询了很多的资料，</description>
     </item>
     

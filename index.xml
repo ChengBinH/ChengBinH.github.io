@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheng‘s Blog</title>
-    <link>http://blog.antice.top/</link>
+    <link>http://chengbinh.github.io/</link>
     <description>Recent content on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-        <atom:link href="http://blog.antice.top/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://chengbinh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于</title>
-      <link>http://blog.antice.top/about/</link>
+      <link>http://chengbinh.github.io/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://blog.antice.top/about/</guid>
+      <guid>http://chengbinh.github.io/about/</guid>
       
         <description>
 
@@ -29,10 +29,10 @@
     
     <item>
       <title>Linux常用命令</title>
-      <link>http://blog.antice.top/post/linuxcmd/</link>
+      <link>http://chengbinh.github.io/post/linuxcmd/</link>
       <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/linuxcmd/</guid>
+      <guid>http://chengbinh.github.io/post/linuxcmd/</guid>
       
         <description>
 
@@ -240,10 +240,10 @@
     
     <item>
       <title>使用Github，Hugo创建属于自己的个人博客</title>
-      <link>http://blog.antice.top/post/hugosite/</link>
+      <link>http://chengbinh.github.io/post/hugosite/</link>
       <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/hugosite/</guid>
+      <guid>http://chengbinh.github.io/post/hugosite/</guid>
       
         <description>
 
@@ -485,10 +485,10 @@ hugo new site myBlog
     
     <item>
       <title>Ubuntu下Github配置</title>
-      <link>http://blog.antice.top/post/git/</link>
+      <link>http://chengbinh.github.io/post/git/</link>
       <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/git/</guid>
+      <guid>http://chengbinh.github.io/post/git/</guid>
       
         <description>
 
@@ -618,10 +618,10 @@ cat /home/yourusername/.ssh/id_rsa.pub
     
     <item>
       <title>Idea插件</title>
-      <link>http://blog.antice.top/post/ideaplugin/</link>
+      <link>http://chengbinh.github.io/post/ideaplugin/</link>
       <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/ideaplugin/</guid>
+      <guid>http://chengbinh.github.io/post/ideaplugin/</guid>
       
         <description>
 
@@ -682,10 +682,10 @@ cat /home/yourusername/.ssh/id_rsa.pub
     
     <item>
       <title>Linux软件记录</title>
-      <link>http://blog.antice.top/post/linuxsoft/</link>
+      <link>http://chengbinh.github.io/post/linuxsoft/</link>
       <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/linuxsoft/</guid>
+      <guid>http://chengbinh.github.io/post/linuxsoft/</guid>
       
         <description>
 

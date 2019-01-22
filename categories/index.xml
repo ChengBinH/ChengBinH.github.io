@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cheng‘s Blog</title>
-    <link>http://blog.antice.top/categories/</link>
+    <link>http://chengbinh.github.io/categories/</link>
     <description>Recent content in Categories on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	<atom:link href="http://blog.antice.top/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://chengbinh.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cmd</title>
-      <link>http://blog.antice.top/categories/cmd/</link>
+      <link>http://chengbinh.github.io/categories/cmd/</link>
       <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/cmd/</guid>
+      <guid>http://chengbinh.github.io/categories/cmd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://blog.antice.top/categories/git/</link>
+      <link>http://chengbinh.github.io/categories/git/</link>
       <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/git/</guid>
+      <guid>http://chengbinh.github.io/categories/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://blog.antice.top/categories/hugo/</link>
+      <link>http://chengbinh.github.io/categories/hugo/</link>
       <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/hugo/</guid>
+      <guid>http://chengbinh.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Idea</title>
-      <link>http://blog.antice.top/categories/idea/</link>
+      <link>http://chengbinh.github.io/categories/idea/</link>
       <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/idea/</guid>
+      <guid>http://chengbinh.github.io/categories/idea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>http://blog.antice.top/categories/java/</link>
+      <link>http://chengbinh.github.io/categories/java/</link>
       <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/java/</guid>
+      <guid>http://chengbinh.github.io/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://blog.antice.top/categories/linux/</link>
+      <link>http://chengbinh.github.io/categories/linux/</link>
       <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/linux/</guid>
+      <guid>http://chengbinh.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Site</title>
-      <link>http://blog.antice.top/categories/site/</link>
+      <link>http://chengbinh.github.io/categories/site/</link>
       <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/site/</guid>
+      <guid>http://chengbinh.github.io/categories/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://blog.antice.top/categories/software/</link>
+      <link>http://chengbinh.github.io/categories/software/</link>
       <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/software/</guid>
+      <guid>http://chengbinh.github.io/categories/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://blog.antice.top/categories/ubuntu/</link>
+      <link>http://chengbinh.github.io/categories/ubuntu/</link>
       <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
       
-      <guid>http://blog.antice.top/categories/ubuntu/</guid>
+      <guid>http://chengbinh.github.io/categories/ubuntu/</guid>
       <description></description>
     </item>
     

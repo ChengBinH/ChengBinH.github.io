@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Cheng‘s Blog</title>
-    <link>http://blog.antice.top/tags/git/</link>
+    <link>http://chengbinh.github.io/tags/git/</link>
     <description>Recent content in Git on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 22 Jan 2019 16:02:34 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.antice.top/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://chengbinh.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu下Github配置</title>
-      <link>http://blog.antice.top/post/git/</link>
+      <link>http://chengbinh.github.io/post/git/</link>
       <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
       
-      <guid>http://blog.antice.top/post/git/</guid>
+      <guid>http://chengbinh.github.io/post/git/</guid>
       <description>安装Git 添加Git的PPA源 sudo add-apt-repository ppa:git-core/ppa 更新PPA源的软件 sudo apt-get update // 更新源的软件版本 sudo apt-get upgrade // 更新本地软件版本 安装Git sudo apt-get install git 测试Git是否安装完</description>
     </item>
     

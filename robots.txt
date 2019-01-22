@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.antice.top/sitemap.xml
+Sitemap: http://chengbinh.github.io/sitemap.xml
