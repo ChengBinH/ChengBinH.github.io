@@ -436,41 +436,58 @@ hugo new site myBlog
 &lt;h1 id=&#34;生成网站&#34;&gt;生成网站&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;直接运行 hugo ，将会自动生成你的网站到 public/ 目录。&lt;/p&gt;
-
-&lt;h1 id=&#34;保存到github&#34;&gt;保存到github&lt;/h1&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;在github创建一个 yourname.github.io的repository&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;上传public下的文件到github（ssh方式）
-```
-1-git init                 # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;直接运行 hugo ，将会自动生成你的网站到 public/ 目录。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;2-git add .               # 添加所有文件到本地索引，命令用法：git add &lt;file&gt;&lt;/p&gt;
+&lt;h1 id=&#34;保存到github&#34;&gt;保存到github&lt;/h1&gt;
 
-&lt;p&gt;3-git commit -m &amp;ldquo;My first commit&amp;rdquo;   # 提交修改到本地仓库，-m选项添加提交注释&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在github创建一个 yourname.github.io的repository&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;4-git remote add origin git@github.com:yourname/yourrepositoryname.git   # 添加远程仓库地址，保存在origin变量中&lt;/p&gt;
-
-&lt;p&gt;5-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;上传public下的文件到github（ssh方式）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;# 后续更新
-            可以使用vs code进行编码，后需提交文章只需要使用 hugo server 实时预览效果，使用 hugo 命令更新文章，然后把public下的文章push到github上就可以了
+&lt;pre class=&#34;chroma&#34;&gt;1-git init                 # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录
 
-# 访问网站&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+2-git add .               # 添加所有文件到本地索引，命令用法：git add &amp;lt;file&amp;gt;
+
+3-git commit -m &amp;#34;My first commit&amp;#34;   # 提交修改到本地仓库，-m选项添加提交注释
+
+4-git remote add origin git@github.com:yourname/yourrepositoryname.git   # 添加远程仓库地址，保存在origin变量中
+
+5-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;https://yourname.github.io&#34;&gt;https://yourname.github.io&lt;/a&gt;
-```&lt;/p&gt;
-
+&lt;h1 id=&#34;后续更新&#34;&gt;后续更新&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;        可以使用vs code进行编码，后需提交文章只需要使用 hugo server 实时预览效果，使用 hugo 命令更新文章，然后把public下的文章push到github上就可以了&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;访问网站&#34;&gt;访问网站&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;https://yourname.github.io&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;配置自己的域名&#34;&gt;配置自己的域名&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

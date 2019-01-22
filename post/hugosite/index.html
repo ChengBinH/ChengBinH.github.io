@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2019-01-22T16:08:17&#43;08:00" />
 <meta itemprop="dateModified" content="2019-01-22T16:08:17&#43;08:00" />
-<meta itemprop="wordCount" content="1519">
+<meta itemprop="wordCount" content="1523">
 
 
 
@@ -341,7 +341,7 @@
             <a href="http://chengbinh.github.io/categories/site/"> site </a>
             
           </div>
-        <span class="more-meta"> 约 1519 字 </span>
+        <span class="more-meta"> 约 1523 字 </span>
           <span class="more-meta"> 预计阅读 4 分钟 </span>
 
         
@@ -552,41 +552,58 @@ hugo new site myBlog
 <h1 id="生成网站">生成网站</h1>
 
 <ul>
-<li><p>直接运行 hugo ，将会自动生成你的网站到 public/ 目录。</p>
-
-<h1 id="保存到github">保存到github</h1></li>
-
-<li><p>在github创建一个 yourname.github.io的repository</p></li>
-
-<li><p>上传public下的文件到github（ssh方式）
-```
-1-git init                 # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录</p></li>
+<li>直接运行 hugo ，将会自动生成你的网站到 public/ 目录。</li>
 </ul>
 
-<p>2-git add .               # 添加所有文件到本地索引，命令用法：git add <file></p>
+<h1 id="保存到github">保存到github</h1>
 
-<p>3-git commit -m &ldquo;My first commit&rdquo;   # 提交修改到本地仓库，-m选项添加提交注释</p>
+<ul>
+<li><p>在github创建一个 yourname.github.io的repository</p></li>
 
-<p>4-git remote add origin git@github.com:yourname/yourrepositoryname.git   # 添加远程仓库地址，保存在origin变量中</p>
-
-<p>5-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支</p>
+<li><p>上传public下的文件到github（ssh方式）</p></li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma"># 后续更新
-            可以使用vs code进行编码，后需提交文章只需要使用 hugo server 实时预览效果，使用 hugo 命令更新文章，然后把public下的文章push到github上就可以了
+<pre class="chroma">1-git init                 # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录
 
-# 访问网站</pre></td></tr></table>
+2-git add .               # 添加所有文件到本地索引，命令用法：git add &lt;file&gt;
+
+3-git commit -m &#34;My first commit&#34;   # 提交修改到本地仓库，-m选项添加提交注释
+
+4-git remote add origin git@github.com:yourname/yourrepositoryname.git   # 添加远程仓库地址，保存在origin变量中
+
+5-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支</pre></td></tr></table>
 </div>
 </div>
-<p><a href="https://yourname.github.io">https://yourname.github.io</a>
-```</p>
-
+<h1 id="后续更新">后续更新</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">        可以使用vs code进行编码，后需提交文章只需要使用 hugo server 实时预览效果，使用 hugo 命令更新文章，然后把public下的文章push到github上就可以了</pre></td></tr></table>
+</div>
+</div>
+<h1 id="访问网站">访问网站</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">https://yourname.github.io</pre></td></tr></table>
+</div>
+</div>
 <h1 id="配置自己的域名">配置自己的域名</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
