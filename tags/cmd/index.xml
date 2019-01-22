@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cmd on Cheng‘s Blog</title>
+    <link>http://blog.antice.top/tags/cmd/</link>
+    <description>Recent content in Cmd on Cheng‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 16:28:53 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.antice.top/tags/cmd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux常用命令</title>
+      <link>http://blog.antice.top/post/linuxcmd/</link>
+      <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/linuxcmd/</guid>
+      <description>linux 学习，命令行备忘 ssh远程服务器 ssh -p (port 默认22 可省略) root@ip ssh-keygen -R ip 清除ssh的登录信息 拷贝文件 scp -P (port 默认22 可省略) 文件 服务器用户名@ip:远</description>
+    </item>
+    
+  </channel>
+</rss>

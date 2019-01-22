@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Cheng‘s Blog</title>
+    <link>http://blog.antice.top/post/</link>
+    <description>Recent content in Posts on Cheng‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 16:28:53 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.antice.top/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux常用命令</title>
+      <link>http://blog.antice.top/post/linuxcmd/</link>
+      <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/linuxcmd/</guid>
+      <description>linux 学习，命令行备忘 ssh远程服务器 ssh -p (port 默认22 可省略) root@ip ssh-keygen -R ip 清除ssh的登录信息 拷贝文件 scp -P (port 默认22 可省略) 文件 服务器用户名@ip:远</description>
+    </item>
+    
+    <item>
+      <title>使用Github，Hugo创建属于自己的个人博客</title>
+      <link>http://blog.antice.top/post/hugosite/</link>
+      <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/hugosite/</guid>
+      <description>(本教程的运行环境为Ubuntu18.04) 背景 &amp;emsp;&amp;emsp;其实在大三暑假开始就想搭建一个个人的静态博客，网上查询了很多的资料，</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下Github配置</title>
+      <link>http://blog.antice.top/post/git/</link>
+      <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/git/</guid>
+      <description>安装Git 添加Git的PPA源 sudo add-apt-repository ppa:git-core/ppa 更新PPA源的软件 sudo apt-get update // 更新源的软件版本 sudo apt-get upgrade // 更新本地软件版本 安装Git sudo apt-get install git 测试Git是否安装完</description>
+    </item>
+    
+    <item>
+      <title>Idea差价</title>
+      <link>http://blog.antice.top/post/ideaplugin/</link>
+      <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/ideaplugin/</guid>
+      <description>一些有效提高IDEA开发的效率 ignore 一键创建git ignore文件的模板 lombok 注解一键生成get set alibaba-java-coding-guidelines 阿里巴巴出品的java代码规范插件 FindBugs-IDEA 检测代码中可</description>
+    </item>
+    
+    <item>
+      <title>Linux软件记录</title>
+      <link>http://blog.antice.top/post/linuxsoft/</link>
+      <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/linuxsoft/</guid>
+      <description>Linux下常用软件记录，防止重装系统时忘记。 Visual Studio Code （ web前端编辑器 ） Chrome （ google浏览器 ） Shadowsocks （ sock5代理软件 ） 网易云音乐 （ 音乐播放</description>
+    </item>
+    
+  </channel>
+</rss>

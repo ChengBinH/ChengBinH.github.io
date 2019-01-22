@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheng‘s Blog</title>
+    <link>http://blog.antice.top/</link>
+    <description>Recent content on Cheng‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    
+        <atom:link href="http://blog.antice.top/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于</title>
+      <link>http://blog.antice.top/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/about/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一个大四的计科学生&#34;&gt;一个大四的计科学生&lt;/h1&gt;
+
+&lt;h1 id=&#34;本博客创建于2018年9月3日&#34;&gt;本博客创建于2018年9月3日&lt;/h1&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux常用命令</title>
+      <link>http://blog.antice.top/post/linuxcmd/</link>
+      <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/linuxcmd/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;linux-学习-命令行备忘&#34;&gt;linux 学习，命令行备忘&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ssh远程服务器&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ssh -p (port 默认22 可省略) root@ip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ssh-keygen -R ip 清除ssh的登录信息&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;拷贝文件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;scp -P (port 默认22 可省略) 文件 服务器用户名@ip:远程服务器路径 (本地拷贝文件到远程服务器)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;scp -P (port 默认22 可省略) 服务器用户名@ip:远程服务器文件 本地路径 (远程服务器拷贝文件到本地)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;端口、进程&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;netstat -ntlp 查看端口占用&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;kill -9 pid 杀进程&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ps aux | grep pid 根据pid查看进程&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;top、gotop 查看计算机内存、处理器等信息&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;软件更新,卸载&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ubuntu&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;apt-get&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;sudo apt-get update 更新源&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get upgrade 检查更新软件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get install 软件名 安装软件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get remove (–purge 可选) 卸载软件 清除配置&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get autoremove&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get clean&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo apt-get autoclean&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;dpkg -i xxx.deb 安装deb软件包&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg -r xxx.deb 删除软件包&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg -r –purge xxx.deb 连同配置文件一起删除&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg -info xxx.deb 查看软件包信息&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg -L xxx.deb 查看文件拷贝详情&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dpkg -l 查看系统中已安装软件包信息&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;查看文件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;tail 倒序查看&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;head 正序查看&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;cat 查看文件所有内容&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;防火墙&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;sudo ufw status 查看防火墙状态以及开放的端口&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ufw enable/disable 开/关防火墙&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ufw allow 端口号 开放端口&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ufw delete allow 端口号 删除端口&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ufw allow from ip 开放ip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ufw delete allow from ip 删除ip&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;nohup 在后台运行&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nohup commond &amp;gt; /dev/null 2&amp;gt;&amp;amp;1 &amp;amp; 后台且输出进程号&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;java&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;java -jar -Dspring.profiles.active=dev xxx.jar 开发环境&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;mysql&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;导入sql文件 mysql -u 用户名 -p 数据库名 &amp;lt;.sql文件位置&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;导出sql文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;mysqldump -u用户名 -p密码 数据库名 &amp;gt; blod_$(date +%Y%m%d_%H%M%S).sql&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修改时间&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;sudo tzselect 选择地区&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo cp /usr/share/zoneInfo/Asia/Shanghai /etc/localtime 复制新的时间文件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sudo ntptime time.windows.com 更新时间&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置文件&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;    # jdk配置
+
+    sudo vim /etc/profile
+
+    #set Java environment
+
+    export JAVA_HOME=/jdkhome
+
+    export JRE_HOME=$JAVA_HOME/jre
+
+    export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+
+    export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+
+    source /etc/profile
+
+    # manven 配置
+
+    建立Maven的HOME目录变量：
+
+    export M2_HOME=/home/gzx/apache-maven-3.3.9
+
+    将Maven的bin目录添加到path路径
+
+    PATH=$M2_HOME/bin:$PATH
+
+    source /etc/profile&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>使用Github，Hugo创建属于自己的个人博客</title>
+      <link>http://blog.antice.top/post/hugosite/</link>
+      <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/hugosite/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;center-本教程的运行环境为ubuntu18-04-center&#34;&gt;&lt;center&gt;(本教程的运行环境为Ubuntu18.04)&lt;center/&gt;&lt;/h1&gt;
+
+&lt;h1 id=&#34;背景&#34;&gt;背景&lt;/h1&gt;
+
+&lt;h3 id=&#34;emsp-emsp-其实在大三暑假开始就想搭建一个个人的静态博客-网上查询了很多的资料-发现很多人都是利用github搭建-于是想使用github搭建一个免费的个人博客-但是发现使用的模板有多种-于是就放弃了-到了开学居然很快的就搭起来了-想想其实上学期寒假也是-想在ubuntu进行编程-但是笔记本安装了四五次一直识别不了u盘-就放弃了-到了开学莫名其妙就可以了-之后就一直在ubuntu进行开发&#34;&gt;&amp;emsp;&amp;emsp;其实在大三暑假开始就想搭建一个个人的静态博客，网上查询了很多的资料，发现很多人都是利用Github搭建，于是想使用Github搭建一个免费的个人博客,但是发现使用的模板有多种，于是就放弃了,到了开学居然很快的就搭起来了。想想其实上学期寒假也是，想在Ubuntu进行编程，但是笔记本安装了四五次一直识别不了U盘，就放弃了，到了开学莫名其妙就可以了，之后就一直在Ubuntu进行开发。&lt;/h3&gt;
+
+&lt;h3 id=&#34;emsp-emsp-我搭建博客使用的是github-hugo-hugo是一个用-go-语言编写的静态网站生成器-就我个人使用而言-安装hugo不需要太多的依赖-使用起来较方便&#34;&gt;&amp;emsp;&amp;emsp;我搭建博客使用的是Github+Hugo。Hugo是一个用 Go 语言编写的静态网站生成器,就我个人使用而言，安装Hugo不需要太多的依赖，使用起来较方便。&lt;/h3&gt;
+
+&lt;h1 id=&#34;ubuntu下安装hugo&#34;&gt;Ubuntu下安装Hugo&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用命令行安装
+&lt;code&gt;
+sudo apt-get install hugo
+&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;图形化安装&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在Ubuntu软件中搜索hugo，并安装&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;验证hugo是否安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;// 命令行输入
+hugo version
+
+// 输出与以下类似即可
+Hugo Static Site Generator v0.47.1 linux/amd64 BuildDate: 2018-08-24T17:11:12Z&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;创建第一个博客&#34;&gt;创建第一个博客&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;// 1. 在自己想要生成网站的路径打开终端
+
+// 2. 生成hugo模板网站
+hugo new site myBlog
+
+// 3. 创建的模板目录说明
+
+|- archetypes ：存放default.md，头文件格式
+
+|- content ：content目录存放博客文章（.markdown/.md文件）
+
+|- data ：存放自定义模版，导入的toml文件（或json，yaml）
+
+|- layouts ：layouts目录存放的是网站的模板文件
+
+|- static ：static目录存放js/css/img等静态资源
+
+|- public : public目录存放生成的网站，这里的文件push到github上就可以使用网络访问
+
+|- themes : theme目录是存放下载的主题
+
+|- config.toml ：config.toml是网站的配置文件
+
+作者：_风流倜傥
+链接：https://www.jianshu.com/p/f1b02e00f206
+來源：简书&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;快速使用主题&#34;&gt;快速使用主题&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;下载主题&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;这里需要使用到github,如未配置请看Ubuntu下的Git以及Github配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;    cd myBlog
+
+    // 这里我使用到的时jane主题
+    // 地址为：https://github.com/xianmin/hugo-theme-jane，可以自行看中文说明
+
+    // 下载主题
+    git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;复制网站配置信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;    cp themes/jane/exampleSite/config.toml ./
+
+    // 回到上级
+    cd .. 
+
+    // 复制默认的文章模板页
+    cp themes/jane/archetypes/default.md archetypes/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;启动hugo server：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;    hugo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;打开 &lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt; ，你将会看到一个示例网站。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创建自己第一篇文章&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;    hugo new post/first.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;开始你的博客&#34;&gt;开始你的博客&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;默认配置文件 config.toml 位于你的网站的根目录，请按自身需要进行定制。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;默认的文章文件位于 ./content/post 目录。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;其他可以看该主题的中文说明&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;生成网站&#34;&gt;生成网站&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;直接运行 hugo ，将会自动生成你的网站到 public/ 目录。&lt;/p&gt;
+
+&lt;h1 id=&#34;保存到github&#34;&gt;保存到github&lt;/h1&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在github创建一个 yourname.github.io的repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;上传public下的文件到github（ssh方式）
+```
+1-git init                 # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2-git add .               # 添加所有文件到本地索引，命令用法：git add &lt;file&gt;&lt;/p&gt;
+
+&lt;p&gt;3-git commit -m &amp;ldquo;My first commit&amp;rdquo;   # 提交修改到本地仓库，-m选项添加提交注释&lt;/p&gt;
+
+&lt;p&gt;4-git remote add origin git@github.com:yourname/yourrepositoryname.git   # 添加远程仓库地址，保存在origin变量中&lt;/p&gt;
+
+&lt;p&gt;5-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;# 后续更新
+            可以使用vs code进行编码，后需提交文章只需要使用 hugo server 实时预览效果，使用 hugo 命令更新文章，然后把public下的文章push到github上就可以了
+
+# 访问网站&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://yourname.github.io&#34;&gt;https://yourname.github.io&lt;/a&gt;
+```&lt;/p&gt;
+
+&lt;h1 id=&#34;配置自己的域名&#34;&gt;配置自己的域名&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;        使用github提供的域名毕竟没有自己的域名好用，所以一般都会到域名提供商哪里购买域名。这个我就不说明了。国内可以到万网购买域名，然后使用cloudflare免费给域名提供ssl和cdn加速，提高网站的安全性和访问速度。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu下Github配置</title>
+      <link>http://blog.antice.top/post/git/</link>
+      <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/git/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;安装git&#34;&gt;安装Git&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;添加Git的PPA源
+&lt;code&gt;
+sudo add-apt-repository ppa:git-core/ppa
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;更新PPA源的软件
+&lt;code&gt;
+sudo apt-get update // 更新源的软件版本
+sudo apt-get upgrade // 更新本地软件版本
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;安装Git
+&lt;code&gt;
+sudo apt-get install git
+&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;测试Git是否安装完成&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;git version // 如果显示版本号就表示安装成功&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;github配置-以下配置在终端中配置&#34;&gt;Github配置（以下配置在终端中配置）&lt;/h1&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置Github用户名和邮箱&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;git config --global user.name &amp;#34;github用户名&amp;#34;
+
+git config --global user.email &amp;#34;github邮箱&amp;#34;
+
+git config --list // 查看github配置&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置ssh公钥&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;ssh-keygen -t rsa -C &amp;#34;github邮箱&amp;#34; 
+
+// 输入该命令后，一直回车即可
+// 该命令完成后会在 当前用户目录 ~/.ssh/下生成密钥文件 
+
+cat /home/yourusername/.ssh/id_rsa.pub 
+
+// 获取公钥 
+// 把终端显示的内容拷贝
+// 登录Github，
+// 找到Settings里的SSH and GPG keys
+// 点击New SSH key
+// Title 随意填，把上面拷贝的公钥粘贴到Key
+// 点击Add SSH key 保存公钥&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;验证Github是否配置成功&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;ssh -T git@github.com
+
+// 如果显示如下就成功了
+// Hi yourname! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;github额外的操作&#34;&gt;Github额外的操作&lt;/h1&gt;
+
+&lt;h2 id=&#34;git设置代理-以下前提为ubuntu配置了shadowsocks-qt5-并成功连上&#34;&gt;git设置代理（以下前提为Ubuntu配置了Shadowsocks-qt5，并成功连上）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;git config –global https.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git config –global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git config –global http.proxy ‘socks5://127.0.0.1:1080’&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git config –global https.proxy ‘socks5://127.0.0.1:1080’&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;取消代理-配置代理的前提下进行操作&#34;&gt;取消代理(配置代理的前提下进行操作)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;git config –global –unset http.proxy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git config –global –unset https.proxy&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Idea差价</title>
+      <link>http://blog.antice.top/post/ideaplugin/</link>
+      <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/ideaplugin/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一些有效提高idea开发的效率&#34;&gt;一些有效提高IDEA开发的效率&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ignore 一键创建git ignore文件的模板&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;lombok 注解一键生成get set&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;alibaba-java-coding-guidelines 阿里巴巴出品的java代码规范插件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;FindBugs-IDEA 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GsonFormat 一键根据json文本生成java类&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Maven Helper 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;VisualVM Launcher 查看jvm的情况 比如堆内存大小的分配&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GenerateAllSetter 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ideaVim idea vim插件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JRebel for Intellij 热部署插件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GenerateSerialVersionUID 自动生成序列化uid&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;LiveEdit chrome需要安装 JetBrains ide support&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CamelCase 驼峰式命名和下划线命名互相转换 ，使用快捷键Shift+Alt+U即可&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Docker integration Docker支持&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CodeGlance 预览文本&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rainbow Brackets 彩虹颜色的括号 看着很舒服 敲代码效率变高&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;activate-power-mode 酷炫的打字插件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Translation 翻译插件，功能很强大，界面很漂亮&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;wakaTime 记录敲代码的时间&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Statistic 统计项目的代码行数&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Alibaba Cloud Toolkit 阿里巴巴出品 快速部署应用到服务器&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;key Promoter X IDEA快捷键提示&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SequenceDiagram UML时序图&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PlantUML UML图相关&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux软件记录</title>
+      <link>http://blog.antice.top/post/linuxsoft/</link>
+      <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
+      
+      <guid>http://blog.antice.top/post/linuxsoft/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;linux下常用软件记录-防止重装系统时忘记&#34;&gt;Linux下常用软件记录，防止重装系统时忘记。&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Visual Studio Code （ web前端编辑器 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Chrome （ google浏览器 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Shadowsocks （ sock5代理软件 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;网易云音乐 （ 音乐播放器 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;wps （ Linux下好用办公软件 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;mailspring （ 邮件客户端 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Terimius （ SSH图形客户端 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Postman （ 网站api测试工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;charles （ 抓包工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;FileZilla （ ftp工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IDEA （ Java IDE jetbrains其他工具 )&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;VLC Media Player （ 视频播放器 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SMPlayer ( 视频播放器 )&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Telegram （ 电报，聊天软件 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;uget + aria2 （ 下载工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SimpleScreenRecorder （ 屏幕录制工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;VirtualBox （ 开源 虚拟机工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Android Studio （ android IDE ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Genymotion （ 第三方android模拟器 收费 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;搜狗输入法 （ 输入法 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;MySQL Workbench （ 图形mysql工具 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vim （ 编辑器 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Steam （ 游戏商店 ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git （ git 配合github使用）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Redis desktop Manager ( Redis管理图形界面 )&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GIMP ( 修图 )&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;electronic-wechat ( 微信 )&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Apache beach ( 压测工具 )&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;-n 请求数量 -c 并发数量 -t 时间(秒)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;桌面版脑图 （百度脑图离线版，思维导图工具）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;地址：&lt;a href=&#34;https://github.com/NaoTu/DesktopNaotu&#34;&gt;https://github.com/NaoTu/DesktopNaotu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;draw (开源画图工具，多平台支持)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;地址：&lt;a href=&#34;https://www.draw.io&#34;&gt;https://www.draw.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PDMan (多平台数据库建模工具)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;地址：&lt;a href=&#34;https://my.oschina.net/skymozn/blog/1821184&#34;&gt;https://my.oschina.net/skymozn/blog/1821184&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;NetSpeed 插件 状态栏显示网速&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
