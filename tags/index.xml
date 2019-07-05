@@ -12,38 +12,11 @@
     
     
     <item>
-      <title>Cmd</title>
+      <title>cmd</title>
       <link>http://chengbinh.github.io/tags/cmd/</link>
       <pubDate>Tue, 22 Jan 2019 16:28:53 +0800</pubDate>
       
       <guid>http://chengbinh.github.io/tags/cmd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>http://chengbinh.github.io/tags/git/</link>
-      <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
-      
-      <guid>http://chengbinh.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plugin</title>
-      <link>http://chengbinh.github.io/tags/plugin/</link>
-      <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
-      
-      <guid>http://chengbinh.github.io/tags/plugin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>http://chengbinh.github.io/tags/software/</link>
-      <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
-      
-      <guid>http://chengbinh.github.io/tags/software/</guid>
       <description></description>
     </item>
     
@@ -53,6 +26,33 @@
       <pubDate>Tue, 22 Jan 2019 16:08:17 +0800</pubDate>
       
       <guid>http://chengbinh.github.io/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://chengbinh.github.io/tags/git/</link>
+      <pubDate>Tue, 22 Jan 2019 16:02:34 +0800</pubDate>
+      
+      <guid>http://chengbinh.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plugin</title>
+      <link>http://chengbinh.github.io/tags/plugin/</link>
+      <pubDate>Tue, 22 Jan 2019 15:58:18 +0800</pubDate>
+      
+      <guid>http://chengbinh.github.io/tags/plugin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>http://chengbinh.github.io/tags/software/</link>
+      <pubDate>Tue, 22 Jan 2019 15:53:22 +0800</pubDate>
+      
+      <guid>http://chengbinh.github.io/tags/software/</guid>
       <description></description>
     </item>
     

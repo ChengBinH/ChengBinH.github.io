@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Cheng‘s Blog</title>
+    <title>software on Cheng‘s Blog</title>
     <link>http://chengbinh.github.io/tags/software/</link>
-    <description>Recent content in Software on Cheng‘s Blog</description>
+    <description>Recent content in software on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 22 Jan 2019 15:53:22 +0800</lastBuildDate>

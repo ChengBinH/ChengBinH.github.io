@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plugin on Cheng‘s Blog</title>
+    <title>plugin on Cheng‘s Blog</title>
     <link>http://chengbinh.github.io/tags/plugin/</link>
-    <description>Recent content in Plugin on Cheng‘s Blog</description>
+    <description>Recent content in plugin on Cheng‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 22 Jan 2019 15:58:18 +0800</lastBuildDate>
