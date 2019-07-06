@@ -812,6 +812,24 @@ cat /home/yourusername/.ssh/id_rsa.pub
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;NetSpeed 插件 状态栏显示网速&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;psensor CPU温度查看&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sudo apt-get install lm-sensors hddtemp psensor&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wireshark 网络抓包http tcp&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DBeaver Java实现的数据库客户端&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Xmind ZEN 思维导图&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;blender 视频处理&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;百度云盘官方&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;MIUI米聊 聊天软件&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
